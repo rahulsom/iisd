@@ -7,22 +7,20 @@ Packaging
 ----
 
 ```
-mvn package -DskipTests=true
+mvn package
 ```
 
 Testing
 ----
 
-On one terminal
+```
+mvn test
+```
+
+Running
+----
 
 ```
 mvn jetty:run
-```
-
-On second terminal
-
-
-```
-mvn test
 ```
 

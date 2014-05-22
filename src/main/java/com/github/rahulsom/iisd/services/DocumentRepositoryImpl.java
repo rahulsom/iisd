@@ -9,9 +9,11 @@ import oasis.names.tc.ebxml_regrep.xsd.rs._3.RegistryResponseType;
 import javax.jws.WebService;
 import javax.xml.ws.AsyncHandler;
 import javax.xml.ws.Response;
+import javax.xml.ws.soap.MTOM;
 import java.util.concurrent.Future;
 
 @WebService(endpointInterface = "ihe.iti.xds_b._2007.DocumentRepositoryPortType")
+@MTOM
 public class DocumentRepositoryImpl implements DocumentRepositoryPortType {
 
   @Override
