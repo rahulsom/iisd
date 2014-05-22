@@ -88,7 +88,7 @@
   </dependencies>
 
 	<build>
-		<finalName>spring-cxf-example</finalName>
+		<finalName>iisd</finalName>
 
 		<plugins>
 
