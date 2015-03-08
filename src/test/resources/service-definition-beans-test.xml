@@ -7,6 +7,6 @@
 		http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
 	<jaxws:client id="repoClient" serviceClass="ihe.iti.xds_b._2007.DocumentRepositoryPortType"
-		address="http://localhost:8080/iisd/repository" />
+		address="netty://http://localhost:8080/iisd/repository" />
 
 </beans>
