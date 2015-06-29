@@ -6,9 +6,11 @@ import ihe.iti.xds_b._2007.RetrieveDocumentSetRequestType;
 import ihe.iti.xds_b._2007.RetrieveDocumentSetResponseType;
 import oasis.names.tc.ebxml_regrep.xsd.rs._3.RegistryResponseType;
 
+import javax.annotation.Resource;
 import javax.jws.WebService;
 import javax.xml.ws.AsyncHandler;
 import javax.xml.ws.Response;
+import javax.xml.ws.WebServiceContext;
 import javax.xml.ws.soap.MTOM;
 import java.util.concurrent.Future;
 
@@ -23,6 +25,7 @@ public class DocumentRepositoryImpl implements DocumentRepositoryPortType {
 
   @Override
   public RetrieveDocumentSetResponseType documentRepositoryRetrieveDocumentSet(RetrieveDocumentSetRequestType body) {
+
     return new RetrieveDocumentSetResponseType().
         withRegistryResponse(new RegistryResponseType().withStatus("SUCCESS")).
         withDocumentResponse()
