@@ -28,7 +28,11 @@ public class HelloWorldServiceTest {
   @Test
   public void helloWorldClientTest() throws ExecutionException, InterruptedException {
 
-    RetrieveDocumentSetRequestType request = new RetrieveDocumentSetRequestType();
+    RetrieveDocumentSetRequestType request = new RetrieveDocumentSetRequestType()
+        .withDocumentRequest(new RetrieveDocumentSetRequestType.DocumentRequest()
+            .withDocumentUniqueId("1000000")
+        );
+
     helloWorldClient.documentRepositoryRetrieveDocumentSetAsync(request, new AsyncHandler<RetrieveDocumentSetResponseType>() {
       @Override
       public void handleResponse(Response<RetrieveDocumentSetResponseType> res) {
