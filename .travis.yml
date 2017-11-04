@@ -1,0 +1,8 @@
+sudo: false
+language: java
+jdk:
+- oraclejdk8
+cahce:
+  directories:
+  - "$HOME/.m2"
+script: "./mvnw test"
