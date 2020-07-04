@@ -15,7 +15,7 @@
       <id>central</id>
       <name>Maven Repository Switchboard</name>
       <layout>default</layout>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
@@ -23,12 +23,12 @@
     <repository>
       <id>springsource-repo</id>
       <name>SpringSource Repository</name>
-      <url>http://repo.springsource.org/release</url>
+      <url>https://repo.springsource.org/release</url>
     </repository>
     <repository>
       <id>sonatype-snapshots</id>
       <name>Sonatype Snapshots</name>
-      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </repository>
   </repositories>
 
