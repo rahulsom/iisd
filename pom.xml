@@ -171,7 +171,7 @@
   </build>
 
   <properties>
-    <cxf.version>3.5.7</cxf.version>
+    <cxf.version>3.6.0</cxf.version>
     <spring.version>5.3.30</spring.version>
   </properties>
 
