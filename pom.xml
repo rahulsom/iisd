@@ -172,7 +172,7 @@
 
   <properties>
     <cxf.version>3.5.7</cxf.version>
-    <spring.version>5.3.32</spring.version>
+    <spring.version>5.3.33</spring.version>
   </properties>
 
 </project>
